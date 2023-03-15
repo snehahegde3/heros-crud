@@ -5,7 +5,7 @@ import { SupaHero } from '../models/supaHero';
   providedIn: 'root'
 })
 export class SupaHeroService {
-
+  url = "SupaHero";
   constructor() { }
 
   public getSupaHeros(): SupaHero[]{ 
