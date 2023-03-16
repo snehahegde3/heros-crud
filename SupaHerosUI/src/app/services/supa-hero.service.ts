@@ -1,20 +1,17 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { SupaHero } from '../models/supaHero';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SupaHeroService {
-  url = "SupaHero";
-  constructor() { }
+  private url = "SupaHero";
+  constructor(private http: HttpClient) { }
 
-  public getSupaHeros(): SupaHero[]{ 
-    let hero = new SupaHero(); 
-    hero.id = 1;
-    hero.name = "Spider Man"; 
-    hero.firstName = "Peter"; 
-    hero.lastName = "Parker";
-    hero.place = "New York City"; 
-    return [hero];
+  public getSupaHeros(): Observable<SupaHero[]>{
+    return this.http.get<SupaHero[]>(`${environment.apiUrl}/${this.url}`)
   }
 }

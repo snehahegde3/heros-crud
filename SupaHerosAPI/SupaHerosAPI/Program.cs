@@ -1,3 +1,5 @@
+using SupaHerosAPI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options => options.AddPolicy(name: "SupaHeroOrigins", 
+    policy => {
+        policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+    }));
+string shortSha = GitHelpers.GetShortCommitSha();
+
 
 var app = builder.Build();
 
@@ -15,6 +23,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("SupaHeroOrigins");
+
+app.Use(async (context, text) =>
+{
+    context.Response.Headers.Add("X-Git-ShortSha", shortSha);
+});
 
 app.UseHttpsRedirection();
 

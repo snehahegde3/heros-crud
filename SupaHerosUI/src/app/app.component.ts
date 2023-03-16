@@ -14,7 +14,8 @@ export class AppComponent implements OnInit{
   constructor(private supaHeroService: SupaHeroService){}
 
   ngOnInit(){ 
-    this.heros = this.supaHeroService.getSupaHeros();
-    console.log(this.heros);
+    this.supaHeroService.getSupaHeros().subscribe((result: SupaHero[])=>{
+      this.heros = result;
+    });
   }
 }
