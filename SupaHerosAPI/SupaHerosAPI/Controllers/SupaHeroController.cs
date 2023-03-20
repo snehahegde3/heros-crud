@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Linq.Expressions;
 
 namespace SupaHerosAPI.Controllers
 {
@@ -15,10 +14,11 @@ namespace SupaHerosAPI.Controllers
             {
                 new SupaHero
                 {
-                    Name = "Spider Man",
-                    FirstName = "Peter",
-                    LastName = "Parker",
-                    Place = "New York City"
+                    Id = 1,
+                    Name="Spider Man",
+                    FirstName="Peter",
+                    LastName="Parker",
+                    Place="New York City"
                 }
             };
         }

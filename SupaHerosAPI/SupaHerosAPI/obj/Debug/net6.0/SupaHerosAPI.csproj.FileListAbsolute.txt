@@ -1,10 +1,3 @@
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.csproj.AssemblyReference.cache
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.GeneratedMSBuildEditorConfig.editorconfig
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.AssemblyInfoInputs.cache
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.AssemblyInfo.cs
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.csproj.CoreCompileInputs.cache
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.MvcApplicationPartsAssemblyInfo.cs
-D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\appsettings.Development.json
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\appsettings.json
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\SupaHerosAPI.exe
@@ -16,6 +9,13 @@ D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\Microsof
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.csproj.AssemblyReference.cache
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.AssemblyInfoInputs.cache
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.AssemblyInfo.cs
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.csproj.CoreCompileInputs.cache
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\SupaHerosAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\staticwebassets\msbuild.SupaHerosAPI.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.SupaHerosAPI.props
 D:\Csharp\Projects\SupaHeros\SupaHerosAPI\SupaHerosAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SupaHerosAPI.props
