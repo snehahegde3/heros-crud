@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConfiguration"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 builder.Services.AddCors(options => options.AddPolicy(name: "SupaHeroOrigins", 
